@@ -1,0 +1,36 @@
+img {
+    width: 600px;
+}
+
+.parentDiv {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideshowContainer {
+    border: 5px solid rgb(71, 98, 155);
+    border-radius: 5px;
+    background-color: silver;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position: absolute;
+}
+
+.next {
+    right: 500px;
+}
+
+.previous {
+    left: 475px;
+}
